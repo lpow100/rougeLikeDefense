@@ -1,5 +1,6 @@
 #include "raylib.h"
 #include "towers.hpp"
+#include "entites.hpp"
 
 int main() {
     const int screenWidth = 800;
@@ -8,6 +9,8 @@ int main() {
     InitWindow(screenWidth, screenHeight, "raylib");
 
     Tower myTower(ice,fire,{400,225});
+
+    Entity bullet()
 
     while (!WindowShouldClose())
     {
